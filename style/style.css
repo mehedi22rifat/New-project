@@ -1,0 +1,198 @@
+/* 
+body{
+    font-family: 'Rubik Maps', system-ui; 
+    
+} */
+
+/* header style */
+.banner{
+    background-image: url('../image/banner1.png');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    padding: 30px;
+    
+}
+
+.header-descraption{
+    text-align: right;
+    /* width: 50%; */
+   margin:100px 0px 0px 400px
+}
+
+.header-h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(237, 161, 8);
+    font-family: 'Rubik Maps', system-ui; 
+
+}
+
+.header-pera{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 119, 119);
+}
+
+.header-button{
+    background-color: rgb(245, 168, 2);
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+   font-weight: bolder;
+   border: 0;
+   border-radius: 10px;
+}
+
+/* main style */
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+main{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+
+.main-img img{
+     width: 300px; 
+    height: auto;
+    padding: 50px;
+    padding-left: 82px;
+   
+}
+
+.main-title{
+    font-size: 40px;
+    font-weight: bold;
+    color:orangered
+}
+
+.main-descraption{
+    margin-right:100px;
+    padding: 50px;
+}
+
+.main-ul li{
+    list-style: none;
+    text-align: left;
+    color: black;
+     
+}
+/* ul {
+    list-style: none;
+  } */
+  
+  .main-ul li:before{
+    content: '✓';
+  }
+
+/* plan style */
+.plan{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+
+}
+
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color:orangered
+}
+
+.plan .guru{
+    padding: 20px;
+    text-align: center;
+}
+
+.guru h4{
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.guru p{
+    margin-top: 3px;
+    color: rgb(64, 62, 62);
+}
+
+
+/* back style */
+.back{
+    background-image: url('../image/watch.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height:200px;
+   width: 700px;
+   margin: 0px auto;
+   border-radius: 8px;
+   /* background-color:#986b48 ; */
+   margin-bottom: 100px;
+   
+
+}
+
+.back .back-h2{
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.btn{
+   
+
+    background-color: rgb(245, 168, 2);
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+   font-weight: bolder;
+   border: 0;
+   border-radius: 10px;
+   margin-left: 20px;
+
+
+}
+
+
+/* footer style */
+.footer{
+    display: flex;
+    background-color: rgb(23, 22, 22);
+
+    
+}
+
+.footer-column{
+    width: 50%;
+    padding: 20px 30px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+
+.footer-ul,li{
+    display: flex;
+    padding: 10px;
+}
+
+
+input[type="email"],button[type="submit"]{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border: none;
+    color:orangered;
+}
+
+
